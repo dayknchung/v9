@@ -23,3 +23,5 @@ I used the following args.gn file:
 The chrome binary in the release package has been stripped. However, you can download the fully symbolized (5.2GB) binary from https://34c3ctf.ccc.ac/uploads/chrome-df7710b0d52079fed45c39a9157a22390505bb68.elf.
 
 The dockerimage/ directory contains everything you need to reproduce the container setup that is used by the challenge server. The server will start chromium like this: `chromium-browser --headless --disable-gpu --no-sandbox --virtual-time-budget=60000 $URL`. The container is given 2 cores and 8GB of RAM.
+
+newest updated on 27/04/2019
